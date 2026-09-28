@@ -55,3 +55,9 @@ a{
     gap: 15px;
     
 }
+
+/* hero section */
+#heroimg{
+    width: auto;
+    height: 300px;
+}

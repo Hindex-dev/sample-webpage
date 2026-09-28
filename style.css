@@ -1,0 +1,13 @@
+@font-face {
+    font-family: robo-med;
+    src: url(/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: robo-con;
+    src: url(/fonts/2Roboto_Condensed-Black.ttf);
+}
+
+body{
+    margin:0;
+    padding: 0;
+}

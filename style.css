@@ -1,3 +1,17 @@
+:root{
+    --main-color: #1f2937;
+    --herosec-maintext: 48px;
+    --herosec-maincolor: #f9faf8;
+    --herosec-mainweight: 900;
+    --sublink-fsize: 18px;
+    --sublink-color: #e5e7e8;
+    --callbtn-bgcolor: #3882f8;
+    --info-fsize: 36px;
+    --info-fcolor: #1f2937;
+    --info-weight: 900;
+
+}
+
 @font-face {
     font-family: robo-med;
     src: url(/fonts/Roboto-Medium.ttf);
@@ -10,4 +24,34 @@
 body{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    width:100vw;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: var(--main-color);
+    gap: 100px;
+}
+
+.logo{
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: var(--sublink-color);
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    font-family: robo-med;
+    font-size: var(--sublink-fsize);
+    list-style-type: none;
+    gap: 15px;
+    
 }

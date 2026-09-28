@@ -29,9 +29,10 @@ body{
 
 .header{
     display: flex;
-    width:100vw;
+    width: 100vw;
     padding: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     background-color: var(--main-color);
     gap: 100px;
 }
@@ -49,7 +50,7 @@ a{
 .links{
     display: flex;
     flex-direction: row;
-    font-family: robo-med;
+    font-family: Roboto;
     font-size: var(--sublink-fsize);
     list-style-type: none;
     gap: 15px;
@@ -57,7 +58,43 @@ a{
 }
 
 /* hero section */
-#heroimg{
-    width: auto;
+.herosec{
+    width: 100vw;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--main-color);
+    padding: 50px;
+}
+#heroimg{
+    height: 200px; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px #090c10 ;
+}
+.intro{
+    color: var(--herosec-maincolor);
+    font-family: roboto;
+}
+#herotitle{
+    font-family: Roboto;
+    font-size: var(--herosec-maintext);
+    font-weight: var(--herosec-mainweight);
+}
+#herosub, #button{
+    font-size: 18px;
+    color: var(--sublink-color);
+}
+#button{
+    background-color: var(--callbtn-bgcolor);
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#button:hover{
+    cursor: pointer;
 }

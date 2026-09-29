@@ -99,3 +99,27 @@ a{
     cursor: pointer;
   background-color: #1d1ae0;
 }
+
+/* art info */
+.info-text{
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: var(--info-fsize);
+  font-weight: var(--herosec-mainweight);
+  color: var(--main-color);
+  margin-top: 50px;
+}
+.info-container{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.art{
+  width: 150px;
+  height: auto;
+  border: solid var(--main-color) 2px;
+  border-radius: 10px;
+}

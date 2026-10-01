@@ -115,11 +115,17 @@ a{
   display: flex;
   justify-content: center;
   gap: 10px;
+  text-align: center;
   
 }
 .art{
   width: 150px;
   height: auto;
-  border: solid var(--main-color) 2px;
+  border: solid var(--callbtn-bgcolor) 2px;
   border-radius: 10px;
+}
+.infosub-txt{
+    font-family: Roboto;
+    font-size: var(--sublink-fsize);
+    color: var(--info-fcolor);
 }

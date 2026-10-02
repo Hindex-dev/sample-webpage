@@ -8,7 +8,7 @@
     --callbtn-bgcolor: #3882f8;
     --info-fsize: 36px;
     --info-fcolor: #1f2937;
-    --info-weight: 900;
+    --info-weight: 800;
 
 }
 
@@ -27,7 +27,7 @@ body{
     box-sizing: border-box;
 }  
 .header{
-    width: auto;
+    width: 100vw;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -106,13 +106,14 @@ a{
   justify-content: center;
   font-family: Roboto;
   font-size: var(--info-fsize);
-  font-weight: var(--herosec-mainweight);
+  font-weight: var(--info-weight);
   color: var(--main-color);
   margin-top: 50px;
 }
 .info-container{
   margin: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   text-align: center;
@@ -134,4 +135,50 @@ a{
   height: 150px;
   border: solid var(--callbtn-bgcolor) 2px;
   border-radius: 10px;
+}
+#txt1{
+    margin-top: 150px;
+}
+
+/* quote */
+#quote{
+    margin-top: 50px;
+    width: 100vw;
+    height: auto;
+}
+
+/* cta */
+.action{
+    display: flex;
+    background-color: var(--callbtn-bgcolor);
+    margin: 30px;
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    font-family: Roboto;
+}
+
+#top-action{
+    font-size: var(--sublink-fsize);
+    font-weight: var(--info-weight);
+    color: var(--sublink-color);
+}
+#summary{
+    font-size: 15px;
+    color: var(--sublink-color);
+
+}
+#button-action{
+    font-size: var(--sublink-fsize);
+    background-color: var(--callbtn-bgcolor);
+    border: solid 2px var(--sublink-color);
+    padding: 7px;
+    border-radius: 5px;
+}
+#button-action:hover{
+    background-color: #5596ff;
+
 }

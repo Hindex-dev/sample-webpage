@@ -129,3 +129,9 @@ a{
     font-size: var(--sublink-fsize);
     color: var(--info-fcolor);
 }
+.code{
+     width: 150px;
+  height: 150px;
+  border: solid var(--callbtn-bgcolor) 2px;
+  border-radius: 10px;
+}
